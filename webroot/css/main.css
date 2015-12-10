@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+}
+body.authenticated {
+  background-color: #fff;
+  background-position: top right;
+}
+.navbar {
+  background-color: #34495e;
+}
+.navbar .nav-right {
+  float: right;
+  margin: 15px;
+}
+.navbar .nav-right a {
+  color: #fff;
+}
+.navbar .nav-right a:hover {
+  color: #1abc9c;
+  text-decoration: none;
+}
+.unauthenticated .login_company_brand {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+.unauthenticated .login_company_brand img {
+  width: 20vw;
+  max-width: 231px;
+}
+@media (min-width: 768px) {
+  .unauthenticated .login_company_brand {
+    display: inline-block;
+  }
+}
+.unauthenticated.full-bg .full-bg-center {
+  max-height: 556px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+@media (max-height: 680px) {
+  .unauthenticated.full-bg .full-bg-center {
+    position: static;
+  }
+}
+.unauthenticated .form-signin .form-signin-heading {
+  margin-bottom: 30px;
+}
+.unauthenticated #footer img {
+  vertical-align: text-bottom;
+}
+.form-control {
+  color: #34495e;
+  height: 39px;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  color: #d5dbdb;
+}
+.form-inline fieldset div input.form-control.hasDatepicker {
+  width: 115px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading .rwd {
+  display: block !important;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading .rwd img {
+  margin: 0px;
+  padding: 0px;
+  max-width: 300px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .form-signin .form-signin-heading .rwd {
+    width: 260px;
+  }
+  .form-signin .form-signin-heading .rwd img {
+    max-width: 260px;
+  }
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="submit"] {
+  margin-top: 10px;
+}
